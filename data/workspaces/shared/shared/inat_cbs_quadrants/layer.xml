@@ -1,0 +1,17 @@
+<layer>
+  <name>inat_cbs_quadrants</name>
+  <id>LayerInfoImpl-70b5caf:1a19c4b2217:-7ffa</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-32385abf:195fa9ae3b1:-7ff6</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-70b5caf:1a19c4b2217:-7ffb</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2026-11-02 12:47:39.112 UTC</dateCreated>
+  <dateModified>2026-11-02 12:47:55.353 UTC</dateModified>
+</layer>
