@@ -1,0 +1,148 @@
+<coverage>
+  <id>CoverageInfoImpl--6c69b5c8:180d1edb6c6:-7ffb</id>
+  <name>podklad6</name>
+  <nativeName>podklad6</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-67c5b8ce:166d5d8c9a6:-7ffb</id>
+  </namespace>
+  <title>podklad6</title>
+  <description>Generated from WorldImage</description>
+  <keywords>
+    <string>podklad6</string>
+    <string>WCS</string>
+    <string>WorldImage</string>
+  </keywords>
+  <nativeCRS class="org.geotools.referencing.crs.DefaultEngineeringCRS">LOCAL_CS[&quot;Wildcard 2D cartesian plane in metric unit&quot;, 
+  LOCAL_DATUM[&quot;Unknown&quot;, 0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;x&quot;, EAST], 
+  AXIS[&quot;y&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;404000&quot;]]</nativeCRS>
+  <srs>EPSG:3857</srs>
+  <nativeBoundingBox>
+    <minx>1268928.1852371735</minx>
+    <maxx>1871794.350462827</maxx>
+    <miny>6016429.0772</miny>
+    <maxy>6439440.1698</maxy>
+    <crs class="org.geotools.referencing.crs.DefaultEngineeringCRS">EPSG:404000</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>11.398975832486002</minx>
+    <maxx>16.814614737493297</maxx>
+    <miny>47.45359441992674</miny>
+    <maxy>49.9605128575535</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>false</advertised>
+  <metadata>
+    <entry key="dirName">basemap_sumava_podklad6</entry>
+  </metadata>
+  <store class="coverageStore">
+    <id>CoverageStoreInfoImpl--6c69b5c8:180d1edb6c6:-7ffc</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <nativeFormat>WorldImage</nativeFormat>
+  <grid dimension="2">
+    <range>
+      <low>0 0</low>
+      <high>1800 1263</high>
+    </range>
+    <transform>
+      <scaleX>334.9256473475852</scaleX>
+      <scaleY>-334.9256473475852</scaleY>
+      <shearX>0.0</shearX>
+      <shearY>0.0</shearY>
+      <translateX>1269095.6480608473</translateX>
+      <translateY>6439272.706976326</translateY>
+    </transform>
+    <crs>EPSG:3857</crs>
+  </grid>
+  <supportedFormats>
+    <string>ImageMosaic</string>
+    <string>AIG</string>
+    <string>GeoPackage (mosaic)</string>
+    <string>ImagePyramid</string>
+    <string>GIF</string>
+    <string>PNG</string>
+    <string>JPEG</string>
+    <string>TIFF</string>
+    <string>DTED</string>
+    <string>ArcGrid</string>
+    <string>GEOTIFF</string>
+    <string>NITF</string>
+    <string>VRT</string>
+    <string>ERDASImg</string>
+    <string>EHdr</string>
+    <string>ENVIHdr</string>
+    <string>RST</string>
+    <string>RPFTOC</string>
+    <string>SRP</string>
+  </supportedFormats>
+  <interpolationMethods>
+    <string>nearest neighbor</string>
+    <string>bilinear</string>
+    <string>bicubic</string>
+  </interpolationMethods>
+  <defaultInterpolationMethod>nearest neighbor</defaultInterpolationMethod>
+  <dimensions>
+    <coverageDimension>
+      <name>RED_BAND</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <unit>W.m-2.Sr-1</unit>
+      <dimensionType>
+        <name>UNSIGNED_8BITS</name>
+      </dimensionType>
+    </coverageDimension>
+    <coverageDimension>
+      <name>GREEN_BAND</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <unit>W.m-2.Sr-1</unit>
+      <dimensionType>
+        <name>UNSIGNED_8BITS</name>
+      </dimensionType>
+    </coverageDimension>
+    <coverageDimension>
+      <name>BLUE_BAND</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <unit>W.m-2.Sr-1</unit>
+      <dimensionType>
+        <name>UNSIGNED_8BITS</name>
+      </dimensionType>
+    </coverageDimension>
+    <coverageDimension>
+      <name>ALPHA_BAND</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <dimensionType>
+        <name>UNSIGNED_8BITS</name>
+      </dimensionType>
+    </coverageDimension>
+  </dimensions>
+  <requestSRS>
+    <string>EPSG:404000</string>
+  </requestSRS>
+  <responseSRS>
+    <string>EPSG:404000</string>
+  </responseSRS>
+  <nativeCoverageName>podklad6</nativeCoverageName>
+</coverage>

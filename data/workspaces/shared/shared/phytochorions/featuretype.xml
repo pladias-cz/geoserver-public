@@ -1,0 +1,65 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--40cbcd83:16d39de9b3a:-7fe6</id>
+  <name>phytochorions</name>
+  <nativeName>phytochorions</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--40cbcd83:16d39de9b3a:-7ff0</id>
+  </namespace>
+  <title>phytochorions</title>
+  <keywords>
+    <string>features</string>
+    <string>phytochorions</string>
+  </keywords>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>12.0906629531795</minx>
+    <maxx>18.8592483930345</maxx>
+    <miny>48.5520555899943</miny>
+    <maxy>51.0558576706563</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>12.0906629531795</minx>
+    <maxx>18.8592483930345</maxx>
+    <miny>48.5520555899943</miny>
+    <maxy>51.0558576706563</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="elevation">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
+    <entry key="JDBC_VIRTUAL_TABLE">
+      <virtualTable>
+        <name>phytochorions</name>
+        <sql>select rowid, phyto_id, name, district, color, geom_wgs from geodata.phytochorions
+</sql>
+        <escapeSql>false</escapeSql>
+        <geometry>
+          <name>geom_wgs</name>
+          <type>Geometry</type>
+          <srid>-1</srid>
+        </geometry>
+      </virtualTable>
+    </entry>
+    <entry key="cacheAgeMax">100000</entry>
+    <entry key="time">
+      <dimensionInfo>
+        <enabled>false</enabled>
+        <defaultValue/>
+      </dimensionInfo>
+    </entry>
+    <entry key="cachingEnabled">true</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--40cbcd83:16d39de9b3a:-7fea</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

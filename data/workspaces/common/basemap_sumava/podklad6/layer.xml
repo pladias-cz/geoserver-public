@@ -1,0 +1,17 @@
+<layer>
+  <name>podklad6</name>
+  <id>LayerInfoImpl--6c69b5c8:180d1edb6c6:-7ffa</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-4bec3535:166d4706d81:-7ffd</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--6c69b5c8:180d1edb6c6:-7ffb</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2022-05-17 12:12:45.706 UTC</dateCreated>
+  <dateModified>2022-05-17 12:12:56.315 UTC</dateModified>
+</layer>

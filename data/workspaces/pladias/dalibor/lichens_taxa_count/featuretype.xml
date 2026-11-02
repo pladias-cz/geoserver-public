@@ -1,0 +1,64 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--54b9eeea:175408ec9ea:-7ffd</id>
+  <name>lichens_taxa_count</name>
+  <nativeName>taxa_count</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-67c5b8ce:166d5d8c9a6:-7fed</id>
+  </namespace>
+  <title>lichens_taxa_count</title>
+  <keywords>
+    <string>features</string>
+    <string>taxa_count</string>
+  </keywords>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>11.0</minx>
+    <maxx>20.0</maxx>
+    <miny>48.0</miny>
+    <maxy>52.0</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>11.0</minx>
+    <maxx>20.0</maxx>
+    <miny>48.0</miny>
+    <maxy>52.0</maxy>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="JDBC_VIRTUAL_TABLE">
+      <virtualTable>
+        <name>taxa_count</name>
+        <sql>select * from dalibcz.m_squares_taxa
+</sql>
+        <escapeSql>false</escapeSql>
+        <geometry>
+          <name>geom_wgs</name>
+          <type>Polygon</type>
+          <srid>4326</srid>
+        </geometry>
+      </virtualTable>
+    </entry>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--4a9dec2c:16d6d4d08e7:-7ffc</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

@@ -1,0 +1,33 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl--2f76d0f8:17ee1f83507:-7ffd</id>
+  <name>rastrdalibor</name>
+  <mode>SINGLE</mode>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-67c5b8ce:166d5d8c9a6:-7ff4</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl--4a9dec2c:16d6d4d08e7:-7ffa</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-4bec3535:166d4706d81:-7ffd</id>
+    </style>
+    <style>
+      <id>StyleInfoImpl--18ed1e7f:172e9e35570:-7ffb</id>
+    </style>
+  </styles>
+  <bounds>
+    <minx>11.0</minx>
+    <maxx>20.0</maxx>
+    <miny>48.0</miny>
+    <maxy>52.0</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2022-02-10 05:00:10.246 UTC</dateCreated>
+</layerGroup>

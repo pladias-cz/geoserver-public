@@ -1,0 +1,30 @@
+<layerGroup>
+  <id>LayerGroupInfoImpl-615a7aac:168bddd1e74:-7ffc</id>
+  <name>semaforgrid</name>
+  <mode>SINGLE</mode>
+  <publishables>
+    <published type="layer">
+      <id>LayerInfoImpl-67c5b8ce:166d5d8c9a6:-7ff4</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-67c5b8ce:166d5d8c9a6:-7fdd</id>
+    </published>
+    <published type="layer">
+      <id>LayerInfoImpl-67c5b8ce:166d5d8c9a6:-7fd9</id>
+    </published>
+  </publishables>
+  <styles>
+    <style>
+      <id>StyleInfoImpl-4bec3535:166d4706d81:-7ffd</id>
+    </style>
+    <style/>
+    <style/>
+  </styles>
+  <bounds>
+    <minx>11.0</minx>
+    <maxx>20.0</maxx>
+    <miny>48.0</miny>
+    <maxy>52.0</maxy>
+    <crs>EPSG:4326</crs>
+  </bounds>
+</layerGroup>

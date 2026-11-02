@@ -1,0 +1,14 @@
+<style>
+  <id>StyleInfoImpl--5ed9f922:195d23ced7a:-7ff3</id>
+  <name>gbif_point_inaturalist</name>
+  <workspace>
+    <id>WorkspaceInfoImpl--40cbcd83:16d39de9b3a:-7ff1</id>
+  </workspace>
+  <format>sld</format>
+  <languageVersion>
+    <version>1.0.0</version>
+  </languageVersion>
+  <filename>gbif_point_inaturalist.sld</filename>
+  <dateCreated>2025-03-26 12:12:41.889 UTC</dateCreated>
+  <dateModified>2025-04-03 07:45:42.331 UTC</dateModified>
+</style>

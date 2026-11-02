@@ -1,0 +1,15 @@
+<layer>
+  <name>geodata_regions</name>
+  <id>LayerInfoImpl--20faa45e:16ad8e9b7b9:-7ffb</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-4bec3535:166d4706d81:-7ffe</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--20faa45e:16ad8e9b7b9:-7ffc</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

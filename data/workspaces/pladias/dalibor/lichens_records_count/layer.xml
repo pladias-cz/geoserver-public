@@ -1,0 +1,17 @@
+<layer>
+  <name>lichens_records_count</name>
+  <id>LayerInfoImpl-6ef32160:1754431b869:-7ffc</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-6ef32160:1754431b869:-7ff8</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-6ef32160:1754431b869:-7ffd</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2020-10-20 04:10:37.918 UTC</dateCreated>
+  <dateModified>2020-10-20 04:45:38.471 UTC</dateModified>
+</layer>

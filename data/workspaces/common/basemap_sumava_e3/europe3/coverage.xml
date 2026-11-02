@@ -1,0 +1,148 @@
+<coverage>
+  <id>CoverageInfoImpl--4c75f2a2:180dad14093:-7fd8</id>
+  <name>europe3</name>
+  <nativeName>europe3</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-67c5b8ce:166d5d8c9a6:-7ffb</id>
+  </namespace>
+  <title>europe3</title>
+  <description>Generated from WorldImage</description>
+  <keywords>
+    <string>europe3</string>
+    <string>WCS</string>
+    <string>WorldImage</string>
+  </keywords>
+  <nativeCRS class="org.geotools.referencing.crs.DefaultEngineeringCRS">LOCAL_CS[&quot;Wildcard 2D cartesian plane in metric unit&quot;, 
+  LOCAL_DATUM[&quot;Unknown&quot;, 0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;x&quot;, EAST], 
+  AXIS[&quot;y&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;404000&quot;]]</nativeCRS>
+  <srs>EPSG:3857</srs>
+  <nativeBoundingBox>
+    <minx>1248162.7950871733</minx>
+    <maxx>1851028.9603128266</maxx>
+    <miny>6034849.9878</miny>
+    <maxy>6457861.0804</maxy>
+    <crs class="org.geotools.referencing.crs.DefaultEngineeringCRS">EPSG:404000</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>11.212437158961501</minx>
+    <maxx>16.62807606396879</maxx>
+    <miny>47.565369386764786</miny>
+    <maxy>50.06684964206719</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>false</advertised>
+  <metadata>
+    <entry key="dirName">basemap_sumava_e3_europe3</entry>
+  </metadata>
+  <store class="coverageStore">
+    <id>CoverageStoreInfoImpl--4c75f2a2:180dad14093:-7fd9</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <nativeFormat>WorldImage</nativeFormat>
+  <grid dimension="2">
+    <range>
+      <low>0 0</low>
+      <high>1800 1263</high>
+    </range>
+    <transform>
+      <scaleX>334.9256473475852</scaleX>
+      <scaleY>-334.9256473475852</scaleY>
+      <shearX>0.0</shearX>
+      <shearY>0.0</shearY>
+      <translateX>1248330.2579108472</translateX>
+      <translateY>6457693.617576326</translateY>
+    </transform>
+    <crs>EPSG:3857</crs>
+  </grid>
+  <supportedFormats>
+    <string>GIF</string>
+    <string>PNG</string>
+    <string>JPEG</string>
+    <string>TIFF</string>
+    <string>VRT</string>
+    <string>RPFTOC</string>
+    <string>AIG</string>
+    <string>NITF</string>
+    <string>ImagePyramid</string>
+    <string>GeoPackage (mosaic)</string>
+    <string>GEOTIFF</string>
+    <string>ENVIHdr</string>
+    <string>SRP</string>
+    <string>ImageMosaic</string>
+    <string>DTED</string>
+    <string>EHdr</string>
+    <string>ERDASImg</string>
+    <string>ArcGrid</string>
+    <string>RST</string>
+  </supportedFormats>
+  <interpolationMethods>
+    <string>nearest neighbor</string>
+    <string>bilinear</string>
+    <string>bicubic</string>
+  </interpolationMethods>
+  <defaultInterpolationMethod>nearest neighbor</defaultInterpolationMethod>
+  <dimensions>
+    <coverageDimension>
+      <name>RED_BAND</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <unit>W.m-2.Sr-1</unit>
+      <dimensionType>
+        <name>UNSIGNED_8BITS</name>
+      </dimensionType>
+    </coverageDimension>
+    <coverageDimension>
+      <name>GREEN_BAND</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <unit>W.m-2.Sr-1</unit>
+      <dimensionType>
+        <name>UNSIGNED_8BITS</name>
+      </dimensionType>
+    </coverageDimension>
+    <coverageDimension>
+      <name>BLUE_BAND</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <unit>W.m-2.Sr-1</unit>
+      <dimensionType>
+        <name>UNSIGNED_8BITS</name>
+      </dimensionType>
+    </coverageDimension>
+    <coverageDimension>
+      <name>ALPHA_BAND</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <dimensionType>
+        <name>UNSIGNED_8BITS</name>
+      </dimensionType>
+    </coverageDimension>
+  </dimensions>
+  <requestSRS>
+    <string>EPSG:404000</string>
+  </requestSRS>
+  <responseSRS>
+    <string>EPSG:404000</string>
+  </responseSRS>
+  <nativeCoverageName>europe3</nativeCoverageName>
+</coverage>

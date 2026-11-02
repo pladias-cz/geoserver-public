@@ -1,0 +1,122 @@
+<coverage>
+  <id>CoverageInfoImpl-67c5b8ce:166d5d8c9a6:-7ff5</id>
+  <name>podklad5</name>
+  <nativeName>podklad5</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-67c5b8ce:166d5d8c9a6:-7ffb</id>
+  </namespace>
+  <title>basemap</title>
+  <description>Generated from WorldImage</description>
+  <keywords>
+    <string>WCS</string>
+    <string>WorldImage</string>
+  </keywords>
+  <nativeCRS class="org.geotools.referencing.crs.DefaultEngineeringCRS">LOCAL_CS[&quot;Wildcard 2D cartesian plane in metric unit&quot;, 
+  LOCAL_DATUM[&quot;Unknown&quot;, 0], 
+  UNIT[&quot;m&quot;, 1.0], 
+  AXIS[&quot;x&quot;, EAST], 
+  AXIS[&quot;y&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;404000&quot;]]</nativeCRS>
+  <srs>EPSG:3857</srs>
+  <nativeBoundingBox>
+    <minx>1308035.5894637455</minx>
+    <maxx>2141276.318445204</maxx>
+    <miny>6157546.316345242</miny>
+    <maxy>6672823.3885660535</maxy>
+    <crs class="org.geotools.referencing.crs.DefaultEngineeringCRS">EPSG:404000</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>11.750283621875703</minx>
+    <maxx>19.235412443825062</maxx>
+    <miny>48.30380206876804</miny>
+    <maxy>51.29039783812401</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>false</advertised>
+  <metadata>
+    <entry key="dirName">basemap_cr_podklad5</entry>
+  </metadata>
+  <store class="coverageStore">
+    <id>CoverageStoreInfoImpl-67c5b8ce:166d5d8c9a6:-7ff6</id>
+  </store>
+  <nativeFormat>WorldImage</nativeFormat>
+  <grid dimension="2">
+    <range>
+      <low>0 0</low>
+      <high>1851 1145</high>
+    </range>
+    <transform>
+      <scaleX>450.15706590030163</scaleX>
+      <scaleY>-450.0236438609708</scaleY>
+      <shearX>0.0</shearX>
+      <shearY>0.0</shearY>
+      <translateX>1308260.6679966957</translateX>
+      <translateY>6672598.376744123</translateY>
+    </transform>
+    <crs>EPSG:3857</crs>
+  </grid>
+  <supportedFormats>
+    <string>ImageMosaic</string>
+    <string>Gtopo30</string>
+    <string>GeoPackage (mosaic)</string>
+    <string>ArcGrid</string>
+    <string>GEOTIFF</string>
+    <string>GIF</string>
+    <string>PNG</string>
+    <string>JPEG</string>
+    <string>TIFF</string>
+  </supportedFormats>
+  <interpolationMethods>
+    <string>nearest neighbor</string>
+    <string>bilinear</string>
+    <string>bicubic</string>
+  </interpolationMethods>
+  <defaultInterpolationMethod>nearest neighbor</defaultInterpolationMethod>
+  <dimensions>
+    <coverageDimension>
+      <name>RED_BAND</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <unit>W.m-2.Sr-1</unit>
+      <dimensionType>
+        <name>UNSIGNED_8BITS</name>
+      </dimensionType>
+    </coverageDimension>
+    <coverageDimension>
+      <name>GREEN_BAND</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <unit>W.m-2.Sr-1</unit>
+      <dimensionType>
+        <name>UNSIGNED_8BITS</name>
+      </dimensionType>
+    </coverageDimension>
+    <coverageDimension>
+      <name>BLUE_BAND</name>
+      <description>GridSampleDimension[-Infinity,Infinity]</description>
+      <range>
+        <min>-inf</min>
+        <max>inf</max>
+      </range>
+      <unit>W.m-2.Sr-1</unit>
+      <dimensionType>
+        <name>UNSIGNED_8BITS</name>
+      </dimensionType>
+    </coverageDimension>
+  </dimensions>
+  <requestSRS>
+    <string>EPSG:404000</string>
+  </requestSRS>
+  <responseSRS>
+    <string>EPSG:404000</string>
+  </responseSRS>
+  <nativeCoverageName>podklad5</nativeCoverageName>
+</coverage>

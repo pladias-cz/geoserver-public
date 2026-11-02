@@ -1,0 +1,76 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-1d2c54d3:16d4d75ec12:-7fec</id>
+  <name>semafor_AGGREGATED</name>
+  <nativeName>semafor_AGGREGATED</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--40cbcd83:16d39de9b3a:-7ff0</id>
+  </namespace>
+  <title>semafor_AGGREGATED</title>
+  <keywords>
+    <string>features</string>
+    <string>semafor_AGGREGATED</string>
+  </keywords>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>11.0</minx>
+    <maxx>20.0</maxx>
+    <miny>48.0</miny>
+    <maxy>52.0</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>11.0</minx>
+    <maxx>20.0</maxx>
+    <miny>48.0</miny>
+    <maxy>52.0</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="JDBC_VIRTUAL_TABLE">
+      <virtualTable>
+        <name>semafor_AGGREGATED</name>
+        <sql>SELECT m.quadrant_name,&#xd;
+       (SELECT id FROM atlas.record_validation_status WHERE priority=max(status.priority) LIMIT 1) AS max_valid_status,&#xd;
+       ST_Multi(ST_Union(m.q_polygon)) as geom,&#xd;
+	   tree.parent_id as pladias_id&#xd;
+&#xd;
+FROM pladiascz.m_plants_distribution m,&#xd;
+     atlas.record_validation_status status,&#xd;
+	 public.m_descendant_taxons tree&#xd;
+&#xd;
+WHERE tree.descendant_id = m.taxon_id&#xd;
+AND      m.validation_status=status.id&#xd;
+      &#xd;
+GROUP BY m.quadrant_name, tree.parent_id
+</sql>
+        <escapeSql>false</escapeSql>
+        <geometry>
+          <name>geom</name>
+          <type>MultiPolygon</type>
+          <srid>4326</srid>
+        </geometry>
+      </virtualTable>
+    </entry>
+    <entry key="cacheAgeMax">100000</entry>
+    <entry key="cachingEnabled">true</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--40cbcd83:16d39de9b3a:-7fea</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

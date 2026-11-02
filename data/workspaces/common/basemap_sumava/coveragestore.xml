@@ -1,0 +1,13 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--6c69b5c8:180d1edb6c6:-7ffc</id>
+  <name>basemap_sumava</name>
+  <description>podkladovka pro projekt FSG</description>
+  <type>WorldImage</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl-67c5b8ce:166d5d8c9a6:-7ffc</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2022-05-17 12:12:31.589 UTC</dateCreated>
+  <url>file:ibot.cas.cz/fsg/podklad6.tif</url>
+</coverageStore>

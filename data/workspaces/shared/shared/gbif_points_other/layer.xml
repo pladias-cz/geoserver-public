@@ -1,0 +1,17 @@
+<layer>
+  <name>gbif_points_other</name>
+  <id>LayerInfoImpl--49c4a195:195fa58c208:-7ffa</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--49c4a195:195fa58c208:-7fe8</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--49c4a195:195fa58c208:-7ffb</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-04-03 06:46:09.899 UTC</dateCreated>
+  <dateModified>2025-04-03 07:03:04.204 UTC</dateModified>
+</layer>

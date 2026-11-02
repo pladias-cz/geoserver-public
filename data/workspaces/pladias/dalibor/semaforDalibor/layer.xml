@@ -1,0 +1,17 @@
+<layer>
+  <name>semaforDalibor</name>
+  <id>LayerInfoImpl--4a9dec2c:16d6d4d08e7:-7ffa</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--18ed1e7f:172e9e35570:-7ffb</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--4a9dec2c:16d6d4d08e7:-7ffb</id>
+  </resource>
+  <attribution>
+    <title>(c) Dalibor</title>
+    <href>https://dalib.cz</href>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

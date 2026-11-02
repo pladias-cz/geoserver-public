@@ -1,0 +1,15 @@
+<layer>
+  <name>squares_fsg</name>
+  <id>LayerInfoImpl-7b93b1ce:171c21e6c1c:-7ff8</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-67c5b8ce:166d5d8c9a6:-7ff2</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-7b93b1ce:171c21e6c1c:-7ff9</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

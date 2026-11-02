@@ -1,0 +1,17 @@
+<layer>
+  <name>fsg_distribution_aggregated_time</name>
+  <id>LayerInfoImpl--1462793e:177713fda40:-7ffc</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--1462793e:177713fda40:-7ff9</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--1462793e:177713fda40:-7ffd</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2021-02-05 08:56:00.629 UTC</dateCreated>
+  <dateModified>2021-02-05 09:10:00.909 UTC</dateModified>
+</layer>

@@ -1,0 +1,17 @@
+<layer>
+  <name>lichens_taxa_count</name>
+  <id>LayerInfoImpl--54b9eeea:175408ec9ea:-7ffc</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--54b9eeea:175408ec9ea:-7ffb</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--54b9eeea:175408ec9ea:-7ffd</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2020-10-19 11:50:12.613 UTC</dateCreated>
+  <dateModified>2020-11-02 06:39:04.595 UTC</dateModified>
+</layer>

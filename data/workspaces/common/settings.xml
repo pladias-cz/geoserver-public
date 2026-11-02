@@ -1,0 +1,23 @@
+<settings>
+  <id>SettingsInfoImpl-67c5b8ce:166d5d8c9a6:-7fe4</id>
+  <workspace>
+    <id>WorkspaceInfoImpl-67c5b8ce:166d5d8c9a6:-7ffc</id>
+    <name>common</name>
+  </workspace>
+  <contact>
+    <id>contact</id>
+  </contact>
+  <charset>UTF-8</charset>
+  <numDecimals>4</numDecimals>
+  <verbose>true</verbose>
+  <verboseExceptions>false</verboseExceptions>
+  <metadata>
+    <map>
+      <entry>
+        <string>quietOnNotFound</string>
+        <boolean>false</boolean>
+      </entry>
+    </map>
+  </metadata>
+  <localWorkspaceIncludesPrefix>false</localWorkspaceIncludesPrefix>
+</settings>

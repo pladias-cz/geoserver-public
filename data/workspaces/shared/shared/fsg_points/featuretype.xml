@@ -1,0 +1,74 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-1d2c54d3:16d4d75ec12:-7ff0</id>
+  <name>fsg_points</name>
+  <nativeName>fsg_points</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--40cbcd83:16d39de9b3a:-7ff0</id>
+  </namespace>
+  <title>fsg_points</title>
+  <keywords>
+    <string>features</string>
+    <string>fsg_pointss</string>
+  </keywords>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>12.01</minx>
+    <maxx>13.8732986450195</maxx>
+    <miny>48.51</miny>
+    <maxy>50.39</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>12.01</minx>
+    <maxx>13.8732986450195</maxx>
+    <miny>48.51</miny>
+    <maxy>50.39</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="elevation">
+      <dimensionInfo>
+        <enabled>false</enabled>
+      </dimensionInfo>
+    </entry>
+    <entry key="JDBC_VIRTUAL_TABLE">
+      <virtualTable>
+        <name>fsg_points</name>
+        <sql>select *, pladias_taxon as pladias_id from bayernflora.geoserver_main
+</sql>
+        <escapeSql>false</escapeSql>
+        <geometry>
+          <name>geometry</name>
+          <type>Point</type>
+          <srid>4326</srid>
+        </geometry>
+      </virtualTable>
+    </entry>
+    <entry key="time">
+      <dimensionInfo>
+        <enabled>false</enabled>
+        <defaultValue/>
+      </dimensionInfo>
+    </entry>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl--40cbcd83:16d39de9b3a:-7fea</id>
+  </store>
+  <maxFeatures>50000</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>true</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

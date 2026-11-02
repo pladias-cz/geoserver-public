@@ -1,0 +1,15 @@
+<layer>
+  <name>podklad5</name>
+  <id>LayerInfoImpl-67c5b8ce:166d5d8c9a6:-7ff4</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-4bec3535:166d4706d81:-7ffd</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl-67c5b8ce:166d5d8c9a6:-7ff5</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

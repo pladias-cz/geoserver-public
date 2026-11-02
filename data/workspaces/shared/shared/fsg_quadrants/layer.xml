@@ -1,0 +1,25 @@
+<layer>
+  <name>fsg_quadrants</name>
+  <id>LayerInfoImpl-1d2c54d3:16d4d75ec12:-7ff5</id>
+  <path>do_not_use</path>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-4bec3535:166d4706d81:-7ffe</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-1d2c54d3:16d4d75ec12:-7ff6</id>
+  </resource>
+  <queryable>false</queryable>
+  <attribution>
+    <title>(c) Pladias</title>
+    <href>https://pladias.ibot.cas.cz/assets/downloads/Prohlaseni_uzivani_databaze_PLADIAS-52152_ENG.pdf</href>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <authorityURLs>
+    <AuthorityURL>
+      <name>Pladias</name>
+      <href>https://pladias.ibot.cas.cz/assets/downloads/Prohlaseni_uzivani_databaze_PLADIAS-52152_ENG.pdf</href>
+    </AuthorityURL>
+  </authorityURLs>
+</layer>

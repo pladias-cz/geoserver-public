@@ -1,0 +1,15 @@
+<layer>
+  <name>phytochorions</name>
+  <id>LayerInfoImpl--40cbcd83:16d39de9b3a:-7fe5</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--40cbcd83:16d39de9b3a:-7fe0</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--40cbcd83:16d39de9b3a:-7fe6</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

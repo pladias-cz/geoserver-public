@@ -1,0 +1,15 @@
+<layer>
+  <name>bayernflora_fsg_taxon_cz</name>
+  <id>LayerInfoImpl-30c5f1e8:16aa27ecb87:-7ff3</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-67c5b8ce:166d5d8c9a6:-7fea</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-30c5f1e8:16aa27ecb87:-7ff4</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

@@ -1,0 +1,17 @@
+<layer>
+  <name>gbif_quadrants_inaturalist</name>
+  <id>LayerInfoImpl--5ed9f922:195d23ced7a:-7ff1</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-32385abf:195fa9ae3b1:-7ff6</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--5ed9f922:195d23ced7a:-7ff2</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-03-26 12:14:16.618 UTC</dateCreated>
+  <dateModified>2025-04-03 07:47:17.726 UTC</dateModified>
+</layer>

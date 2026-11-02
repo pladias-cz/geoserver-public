@@ -1,0 +1,17 @@
+<layer>
+  <name>timePladias</name>
+  <id>LayerInfoImpl-237ec9ed:1950e6a1f91:-7ffc</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-7a7c84a8:174054e406d:-7ffb</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-237ec9ed:1950e6a1f91:-7ffd</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-02-16 14:50:07.184 UTC</dateCreated>
+  <dateModified>2025-02-16 14:50:37.851 UTC</dateModified>
+</layer>

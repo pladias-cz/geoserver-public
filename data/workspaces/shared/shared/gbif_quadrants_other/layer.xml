@@ -1,0 +1,17 @@
+<layer>
+  <name>gbif_quadrants_other</name>
+  <id>LayerInfoImpl--5ed9f922:195d23ced7a:-7ffa</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-dc0a1fe:16ada78f278:-7ffb</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--5ed9f922:195d23ced7a:-7ffb</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-03-26 12:09:18.577 UTC</dateCreated>
+  <dateModified>2025-03-26 12:09:40.591 UTC</dateModified>
+</layer>

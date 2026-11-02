@@ -1,0 +1,81 @@
+<featureType>
+  <id>FeatureTypeInfoImpl--1462793e:177713fda40:-7ffd</id>
+  <name>fsg_distribution_aggregated_time</name>
+  <nativeName>fsg_distribution_aggregated_time</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-67c5b8ce:166d5d8c9a6:-7fed</id>
+  </namespace>
+  <title>fsg_distribution_aggregated_time</title>
+  <keywords>
+    <string>features</string>
+    <string>fsg_distribution_aggregated_time</string>
+  </keywords>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>11.0</minx>
+    <maxx>20.0</maxx>
+    <miny>48.0</miny>
+    <maxy>52.0</maxy>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>11.0</minx>
+    <maxx>20.0</maxx>
+    <miny>48.0</miny>
+    <maxy>52.0</maxy>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <metadata>
+    <entry key="JDBC_VIRTUAL_TABLE">
+      <virtualTable>
+        <name>fsg_distribution_aggregated_time</name>
+        <sql>WITH sub as (select * FROM bayernflora.geoserver_distribution_aggregated_time &#xd;
+ WHERE fsg_taxon=%TAXON_ID% )&#xd;
+SELECT *, CASE&#xd;
+	   WHEN max_year &lt; %YEAR% THEN &apos;old&apos;&#xd;
+	   WHEN max_year &gt;= %YEAR% THEN &apos;new&apos;         &#xd;
+	END status &#xd;
+from sub &#xd;
+WHERE max_year IS NOT NULL
+</sql>
+        <escapeSql>false</escapeSql>
+        <geometry>
+          <name>geom_wgs</name>
+          <type>Polygon</type>
+          <srid>4326</srid>
+        </geometry>
+        <parameter>
+          <name>TAXON_ID</name>
+          <defaultValue>0</defaultValue>
+          <regexpValidator>^[\d]+$</regexpValidator>
+        </parameter>
+        <parameter>
+          <name>YEAR</name>
+          <defaultValue>0</defaultValue>
+          <regexpValidator>^[\d]+$</regexpValidator>
+        </parameter>
+      </virtualTable>
+    </entry>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-67c5b8ce:166d5d8c9a6:-7fe9</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

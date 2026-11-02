@@ -1,0 +1,16 @@
+<layer>
+  <name>semafor_SINGLE</name>
+  <id>LayerInfoImpl-1d2c54d3:16d4d75ec12:-7fdf</id>
+  <path>do_not_use</path>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-4bec3535:166d4706d81:-7ffe</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-1d2c54d3:16d4d75ec12:-7fe0</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

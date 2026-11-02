@@ -1,0 +1,17 @@
+<layer>
+  <name>gbif_points_inaturalist</name>
+  <id>LayerInfoImpl--49c4a195:195fa58c208:-7ffc</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl--5ed9f922:195d23ced7a:-7ff3</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--49c4a195:195fa58c208:-7ffd</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-04-03 06:44:05.384 UTC</dateCreated>
+  <dateModified>2025-04-03 07:03:58.568 UTC</dateModified>
+</layer>

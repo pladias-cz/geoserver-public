@@ -1,0 +1,16 @@
+<layer>
+  <name>fsg_points</name>
+  <id>LayerInfoImpl-1d2c54d3:16d4d75ec12:-7fef</id>
+  <path>do_not_use</path>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-4bec3535:166d4706d81:-8000</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-1d2c54d3:16d4d75ec12:-7ff0</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

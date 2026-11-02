@@ -1,0 +1,15 @@
+<layer>
+  <name>quadrants</name>
+  <id>LayerInfoImpl--40cbcd83:16d39de9b3a:-7fd7</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1d2c54d3:16d4d75ec12:-7ffb</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--40cbcd83:16d39de9b3a:-7fd8</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>

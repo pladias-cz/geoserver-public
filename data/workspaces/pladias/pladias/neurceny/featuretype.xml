@@ -1,0 +1,77 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-67c5b8ce:166d5d8c9a6:-7fde</id>
+  <name>neurceny</name>
+  <nativeName>neurceny</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl-67c5b8ce:166d5d8c9a6:-7fed</id>
+  </namespace>
+  <title>neurceny</title>
+  <keywords>
+    <string>features</string>
+    <string>neurceny</string>
+  </keywords>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, 
+  DATUM[&quot;World Geodetic System 1984&quot;, 
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], 
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], 
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], 
+  UNIT[&quot;degree&quot;, 0.017453292519943295], 
+  AXIS[&quot;Geodetic longitude&quot;, EAST], 
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], 
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>11.0</minx>
+    <maxx>20.0</maxx>
+    <miny>48.0</miny>
+    <maxy>52.0</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>11.0</minx>
+    <maxx>20.0</maxx>
+    <miny>48.0</miny>
+    <maxy>52.0</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <advertised>false</advertised>
+  <metadata>
+    <entry key="JDBC_VIRTUAL_TABLE">
+      <virtualTable>
+        <name>neurceny</name>
+        <sql>WITH superior AS (&#xd;
+	SELECT lft, rgt FROM public.taxons WHERE id=%TAXON_ID%&#xd;
+	), subtaxa AS (&#xd;
+	SELECT id FROM public.taxons WHERE lft&gt;=(SELECT lft FROM superior) AND rgt &lt;=(SELECT rgt FROM superior)&#xd;
+	)&#xd;
+SELECT quadrant_name, centroid&#xd;
+FROM pladiascz.M_plants_distribution&#xd;
+WHERE taxon_id IN (SELECT id FROM subtaxa)&#xd;
+AND validation_status=0
+</sql>
+        <escapeSql>false</escapeSql>
+        <geometry>
+          <name>centroid</name>
+          <type>Point</type>
+          <srid>4326</srid>
+        </geometry>
+        <parameter>
+          <name>TAXON_ID</name>
+          <defaultValue>0</defaultValue>
+          <regexpValidator>^[\d]+$</regexpValidator>
+        </parameter>
+      </virtualTable>
+    </entry>
+    <entry key="cachingEnabled">false</entry>
+  </metadata>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-67c5b8ce:166d5d8c9a6:-7fe9</id>
+  </store>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

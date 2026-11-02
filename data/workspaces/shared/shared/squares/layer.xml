@@ -1,0 +1,15 @@
+<layer>
+  <name>squares</name>
+  <id>LayerInfoImpl--40cbcd83:16d39de9b3a:-7fd9</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-1d2c54d3:16d4d75ec12:-7ffc</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl--40cbcd83:16d39de9b3a:-7fda</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+</layer>
