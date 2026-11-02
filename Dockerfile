@@ -5,10 +5,10 @@ ENV RUN_WITH_USER_UID=1000
 ENV RUN_WITH_USER_GID=1000
 ENV CHANGE_OWNERSHIP_ON_FOLDERS=false
 
-RUN chown -R ubuntu:ubuntu /opt/geoserver_data /usr/local/tomcat
+RUN chown -R 1000:1000 /opt/geoserver_data /usr/local/tomcat
 
-USER ubuntu
+USER 1000
 
-COPY --chown=ubuntu:ubuntu ./data /opt/geoserver_data
+COPY --chown=1000:1000 ./data /opt/geoserver_data
 
 CMD ["/opt/tomcat/bin/catalina.sh", "run"]
