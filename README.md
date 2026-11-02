@@ -12,5 +12,7 @@ postup:
  ```bash
  rm -rf ./data
  docker cp pl_geoserver_private:/opt/geoserver/data_dir/ ./data
+ #nebo
+ docker exec pl_geoserver_common tar -C /opt -czf - geoserver_data > geoserver_data.tar.gz
  ```
 * push repositář
