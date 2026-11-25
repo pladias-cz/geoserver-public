@@ -47,7 +47,7 @@
 	SELECT id FROM public.taxons WHERE lft&gt;=(SELECT lft FROM superior) AND rgt &lt;=(SELECT rgt FROM superior)&#xd;
 	)&#xd;
 SELECT quadrant_name, centroid&#xd;
-FROM pladiascz.M_plants_distribution&#xd;
+FROM pladiascz.m_plants_distribution_including_inat&#xd;
 WHERE taxon_id IN (SELECT id FROM subtaxa)&#xd;
 AND validation_status=0
 </sql>

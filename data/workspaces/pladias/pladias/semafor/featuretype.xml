@@ -43,7 +43,7 @@
        (SELECT id FROM atlas.record_validation_status WHERE priority=max(status.priority) LIMIT 1) AS max_valid_status,&#xd;
        ST_Multi(ST_Union(m.q_polygon))&#xd;
 &#xd;
-FROM pladiascz.m_plants_distribution m,&#xd;
+FROM pladiascz.m_plants_distribution_including_inat m,&#xd;
      atlas.record_validation_status as status&#xd;
 &#xd;
 WHERE m.lft &gt;= (SELECT lft FROM public.taxons WHERE id=%TAXON_ID%)&#xd;
